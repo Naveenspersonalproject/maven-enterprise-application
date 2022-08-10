@@ -1,0 +1,6 @@
+projectKey=com.mt:maven-enterprise-application
+serverUrl=http://localhost:9000
+serverVersion=7.8.0.26217
+dashboardUrl=http://localhost:9000/dashboard?id=com.mt%3Amaven-enterprise-application
+ceTaskId=AYKIB12BDkBS5N4pZ1b1
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYKIB12BDkBS5N4pZ1b1
