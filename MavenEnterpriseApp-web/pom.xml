@@ -93,16 +93,19 @@
 	</dependencies>
 	
 	<distributionManagement>
+	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:8085/mithuntechnologies/repository/flipkart-releases/</url>
+	      <name>Enterprise-Release Nexus Repository</name>
+	      <url>http://localhost:8081/repository/Standalone-Release/</url>
 	    </repository>
+	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8085/mithuntechnologies/repository/flipkart-snapshot/</url>
+	      <name>Enterprise-Snapshot Nexus Repository </name>
+	      <url>http://localhost:8081/repository/Standalone-Snapshot/</url>
 	    </snapshotRepository>
+	    
 	</distributionManagement>
 	
 
