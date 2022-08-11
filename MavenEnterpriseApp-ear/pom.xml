@@ -24,5 +24,21 @@
             <type>war</type>
         </dependency>
     </dependencies>
+  
+  <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Enterprise-Release Nexus Repository</name>
+	      <url>http://localhost:8081/repository/Standalone-Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Enterprise-Snapshot Nexus Repository </name>
+	      <url>http://localhost:8081/repository/Standalone-Snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 </project>
 
